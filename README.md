@@ -77,34 +77,11 @@ Your application should now be running at `http://localhost:8000`.
     php artisan cache:clear
     ```
 
-## Available Routes
-Here is a list of available routes in this project:
-
-- **Admin Blog:**
-    - /api/admin/blog - GET|HEAD
-    - /api/admin/blog - POST
-    - /api/admin/blog/{id} - GET|HEAD
-    - /api/admin/blog/{id} - DELETE
-
-- **Admin FAQ:**
-    - /api/admin/faq - GET|HEAD
-    - /api/admin/faq - POST
-    - /api/admin/faq/{id} - DELETE
-
-- **Authentication:**
-    - /api/auth/login - POST
-    - /api/auth/logout - POST
-    - /api/auth/me - GET|HEAD
-    - /api/auth/register - POST
-
-- **Public Blog:**
-    - /api/blog - GET|HEAD
-    - /api/blog/{id} - GET|HEAD
-
-- **Public FAQ:**
-    - /api/faq - GET|HEAD
-
 ## Deployment
 
-For deployment instructions, please refer to the [DEPLOY.md](deploy.md) file.
+For deployment instructions, please refer to the [DEPLOY.md](deploy) file.
 
+## API Documentation
+The API documentation is available in the Postman collection. You can import it using the following link:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/16747721/2sAY52dKn9)
