@@ -106,5 +106,5 @@ Here is a list of available routes in this project:
 
 ## Deployment
 
-For deployment instructions, please refer to the [DEPLOY.md](DEPLOY.md) file.
+For deployment instructions, please refer to the [DEPLOY.md](deploy.md) file.
 
